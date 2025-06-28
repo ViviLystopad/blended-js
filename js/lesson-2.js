@@ -68,7 +68,7 @@
 // Функція рахує і повертає загальну вартість фрукта
 // з таким ім'ям, ціною та кількістю з об'єкта.
 
-// Зверніть увагу, що в масиві може бути кілька обʼєктів з однаковою 
+// Зверніть увагу, що в масиві може бути кілька обʼєктів з однаковою
 // назвою фрукта, це також треба урахувати.
 
 // const fruits = [
@@ -91,3 +91,87 @@
 //     }
 //     return totalPrice;
 // }
+
+// function filterArray(numbers, value) {
+//     let newArr = [];
+//     numbers.forEach(function (number){
+//       if(number>value){
+//          newArr.push(number);
+//       }
+//     })
+//     return newArr;
+//   }
+// console.log(filterArray([12, 24, 8, 41, 76], 38));
+  
+// const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
+// console.log(calculateTotalPrice(5, 5));
+
+// function changeEven(numbers, value) {
+//     let newArr = [];
+//     for (let i = 0; i < numbers.length; i += 1) {
+//       if (numbers[i] % 2 === 0) {
+//     newArr.push(numbers[i] + value);
+//       } else {
+//         newArr.push(numbers[i]);
+//       }
+//     }
+//     return newArr;
+//   }
+// console.log(changeEven([1, 2, 3, 4, 5], 10));
+  
+// const planets = ["Earth", "Mars", "Venus", "Jupiter"];
+
+// const planetsLengths = planets.map(planet => planet.length);
+// console.log(planetsLengths);
+
+// const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       rating: 8.38,
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       rating: 8.51,
+//     },
+//     {
+//       title: "The Dream of a Ridiculous Man",
+//       author: "Fyodor Dostoevsky",
+//       rating: 7.75,
+//     },
+//     { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//     { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+//   ];
+  
+//   const titles = books.map(book => book.title);
+
+// const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       genres: ["adventure", "history"],
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       genres: ["fiction"],
+//     },
+//     {
+//       title: "Redder Than Blood",
+//       author: "Tanith Lee",
+//       genres: ["horror", "mysticism"],
+//     },
+//   ];
+  
+//   const genres = books.flatMap(book => book.genres);
+// console.log(genres);
+  
+// const total = [0, 1, 5].reduce((previousValue, number) => {
+//     return previousValue + number;
+//   }, 1);
+  
+//   console.log(total); // 12
+  
+
+
